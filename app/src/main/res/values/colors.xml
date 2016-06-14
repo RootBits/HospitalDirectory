@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabBackgroundColor">#A09FE0</color>
+    <color name="nav_state_check">#EBEBEB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="titleWord">#1EBDC7</color>
+    <color name="nav_background_color">#F2F2F2</color>
+    <color name="ps_text_color">#D92946</color>
+    <color name="nav_text_color">#383062</color>
+    <color name="about_text_color">#5D5D5D</color>
+    <color name="expandable_list_view_header">#A20D26</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#0000">
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/more2"
+        android:background="@color/white"
+        app:rv_centered="true"
+        app:rv_color="@android:color/holo_blue_dark"
+        app:rv_alpha="180"
+        app:rv_type="simpleRipple"
+        app:rv_zoom="true"
+        app:rv_zoomDuration="150"
+        app:rv_zoomScale=".9">
+        <!-- alpha 0-255,zoomDuration 0-155 zoomScale .0-1.0 -->
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:text="asd"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center"
+        android:textColor="#525252"/>
+</com.andexert.library.RippleView>
+</LinearLayout>
